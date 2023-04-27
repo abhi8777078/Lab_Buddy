@@ -1,0 +1,49 @@
+.main-container
+{
+    display: flex;
+}
+.create-batch{
+    background-color: #D9EEE1;
+    margin-top: 20px;
+    width: 60%;
+}
+.left{
+    margin: 10px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.right{
+    font-family: 'Source Code Pro', monospace;
+    margin: 10px;
+
+}
+.txt
+{
+    display: block;
+    padding: 10px;
+    width: 20vw;
+    font-size:18px ;
+}
+.createBtn{
+    padding: 10px;
+    border: none;
+    width: 21.9vw;
+    font-size:18px ;
+    background-color: green;
+    color: white;
+}
+.createBtn:hover{
+    cursor: pointer;
+}
+.split{
+    display: flex;
+    background-color: #D9EEE1;
+    margin-top: 20px;
+    width: 100%;
+    border:2px solid;
+}
+.createdBatch{
+    border: 2px solid;
+    width: 100%;
+}

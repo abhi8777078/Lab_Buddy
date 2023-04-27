@@ -1,0 +1,22 @@
+.adminSideBar
+{
+    display:inline-block;
+    margin-top: 20px;
+    overflow-y: scroll;
+    height: 86vh;
+    background-color: #CCCCCC;
+}
+.adminSideMenu
+{
+    display: block;
+    text-decoration: none;
+    /* border: .5px solid; */
+    padding: 10px;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+    /* background-color: green; */
+}
+.adminSideMenu:hover{
+    cursor: pointer;
+    background-color: #E7E9EB;
+}
