@@ -1,6 +1,6 @@
 import "./Admin.css";
-import AdminHeader from "./AdminHeader";
-import AdminSidebar from "./AdminSidebar";
+import AdminHeader from "../AdminHeader/AdminHeader";
+import AdminSidebar from "../AdminSidebar/AdminSidebar";
 function Admin()
 {
     return (
